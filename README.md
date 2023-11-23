@@ -1,2 +1,2 @@
-# idle-life-simulator-game
- It's an idle life/fun simulator game for mobile platforms.
+# idle-drinks-game
+ It's an idle clicker simulator game for mobile platforms.
