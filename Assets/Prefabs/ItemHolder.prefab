@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4661879903408821021}
   - component: {fileID: 1859791195384772137}
   - component: {fileID: 5167349860263612737}
+  - component: {fileID: 4023105582425900805}
   m_Layer: 5
   m_Name: BuyButton
   m_TagString: Untagged
@@ -121,7 +122,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859791195384772137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4023105582425900805}
+        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+        m_MethodName: BuyAnItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4023105582425900805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100449767856652568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03fb058d8336bb40ad6b422e10eee79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
 --- !u!1 &1220571980935005238
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +506,7 @@ GameObject:
   - component: {fileID: 5846431342127768360}
   - component: {fileID: 4840103133299423004}
   - component: {fileID: 2658682100321127391}
+  - component: {fileID: 3296570692406324053}
   m_Layer: 5
   m_Name: ItemHolder
   m_TagString: Untagged
@@ -571,6 +598,23 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: 1
   m_LayoutPriority: 1
+--- !u!114 &3296570692406324053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338008068167117611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124867af1d41c044086e84f3fccfee64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 5639139677758142190}
+  itemNameText: {fileID: 1149456470412805627}
+  gpsText: {fileID: 8097780614437952467}
+  amountText: {fileID: 5722811287456628293}
+  costText: {fileID: 5886229684528107080}
 --- !u!1 &5261871653192611480
 GameObject:
   m_ObjectHideFlags: 0
